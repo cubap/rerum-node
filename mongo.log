@@ -1,0 +1,81 @@
+2016-05-13T17:03:56.389+0000 [initandlisten] MongoDB starting : pid=14940 port=27017 dbpath=/home/ubuntu/workspace/data 64-bit host=cubap-rerum-3146893
+2016-05-13T17:03:56.390+0000 [initandlisten] db version v2.6.12
+2016-05-13T17:03:56.390+0000 [initandlisten] git version: d73c92b1c85703828b55c2916a5dd4ad46535f6a
+2016-05-13T17:03:56.390+0000 [initandlisten] build info: Linux build5.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2016-05-13T17:03:56.390+0000 [initandlisten] allocator: tcmalloc
+2016-05-13T17:03:56.390+0000 [initandlisten] options: { net: { bindIp: "0.0.0.0", http: { RESTInterfaceEnabled: true, enabled: true } }, processManagement: { fork: true }, storage: { dbPath: "data", journal: { enabled: false } }, systemLog: { destination: "file", path: "./mongo.log" } }
+2016-05-13T17:03:56.400+0000 [initandlisten] waiting for connections on port 27017
+2016-05-13T17:03:56.412+0000 [websvr] admin web console waiting for connections on port 28017
+2016-05-13T17:04:11.058+0000 [initandlisten] connection accepted from 127.0.0.1:33710 #1 (1 connection now open)
+2016-05-13T17:04:11.062+0000 [conn1] end connection 127.0.0.1:33710 (0 connections now open)
+2016-05-13T17:04:11.067+0000 [initandlisten] connection accepted from 127.0.0.1:33712 #2 (1 connection now open)
+2016-05-13T17:04:11.071+0000 [conn2] end connection 127.0.0.1:33712 (0 connections now open)
+2016-05-13T17:04:56.415+0000 [clientcursormon] mem (MB) res:52 virt:240
+2016-05-13T17:04:56.415+0000 [clientcursormon]  mapped:80
+2016-05-13T17:04:56.415+0000 [clientcursormon]  connections:0
+2016-05-13T17:09:56.435+0000 [clientcursormon] mem (MB) res:53 virt:241
+2016-05-13T17:09:56.435+0000 [clientcursormon]  mapped:80
+2016-05-13T17:09:56.435+0000 [clientcursormon]  connections:0
+2016-05-13T17:14:56.454+0000 [clientcursormon] mem (MB) res:53 virt:241
+2016-05-13T17:14:56.454+0000 [clientcursormon]  mapped:80
+2016-05-13T17:14:56.454+0000 [clientcursormon]  connections:0
+2016-05-13T17:15:53.391+0000 [initandlisten] connection accepted from 127.0.0.1:50732 #3 (1 connection now open)
+2016-05-13T17:15:53.396+0000 [conn3] end connection 127.0.0.1:50732 (0 connections now open)
+2016-05-13T17:15:53.401+0000 [initandlisten] connection accepted from 127.0.0.1:50734 #4 (1 connection now open)
+2016-05-13T17:15:53.409+0000 [conn4] end connection 127.0.0.1:50734 (0 connections now open)
+2016-05-13T17:19:56.495+0000 [clientcursormon] mem (MB) res:53 virt:241
+2016-05-13T17:19:56.495+0000 [clientcursormon]  mapped:80
+2016-05-13T17:19:56.495+0000 [clientcursormon]  connections:0
+2016-05-13T17:24:56.573+0000 [clientcursormon] mem (MB) res:53 virt:241
+2016-05-13T17:24:56.573+0000 [clientcursormon]  mapped:80
+2016-05-13T17:24:56.573+0000 [clientcursormon]  connections:0
+2016-05-13T17:26:08.824+0000 [initandlisten] connection accepted from 127.0.0.1:59510 #5 (1 connection now open)
+2016-05-13T17:29:56.589+0000 [clientcursormon] mem (MB) res:53 virt:241
+2016-05-13T17:29:56.589+0000 [clientcursormon]  mapped:80
+2016-05-13T17:29:56.589+0000 [clientcursormon]  connections:1
+2016-05-13T17:34:56.600+0000 [clientcursormon] mem (MB) res:53 virt:241
+2016-05-13T17:34:56.600+0000 [clientcursormon]  mapped:80
+2016-05-13T17:34:56.600+0000 [clientcursormon]  connections:1
+2016-05-13T17:37:19.260+0000 [conn5] build index on: local.info properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.info" }
+2016-05-13T17:37:19.260+0000 [conn5] 	 added index to empty collection
+2016-05-13T17:38:09.657+0000 [conn5] allocating new ns file /home/ubuntu/workspace/data/rerum.ns, filling with zeroes...
+2016-05-13T17:38:09.735+0000 [FileAllocator] allocating new datafile /home/ubuntu/workspace/data/rerum.0, filling with zeroes...
+2016-05-13T17:38:09.735+0000 [FileAllocator] creating directory /home/ubuntu/workspace/data/_tmp
+2016-05-13T17:38:09.742+0000 [FileAllocator] done allocating datafile /home/ubuntu/workspace/data/rerum.0, size: 64MB,  took 0.001 secs
+2016-05-13T17:38:09.742+0000 [conn5] build index on: rerum.info properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "rerum.info" }
+2016-05-13T17:38:09.742+0000 [conn5] 	 added index to empty collection
+2016-05-13T17:38:56.609+0000 [clientcursormon] mem (MB) res:57 virt:322
+2016-05-13T17:38:56.609+0000 [clientcursormon]  mapped:160
+2016-05-13T17:38:56.609+0000 [clientcursormon]  connections:1
+2016-05-13T17:43:56.636+0000 [clientcursormon] mem (MB) res:57 virt:322
+2016-05-13T17:43:56.636+0000 [clientcursormon]  mapped:160
+2016-05-13T17:43:56.636+0000 [clientcursormon]  connections:1
+2016-05-13T17:48:56.655+0000 [clientcursormon] mem (MB) res:57 virt:322
+2016-05-13T17:48:56.655+0000 [clientcursormon]  mapped:160
+2016-05-13T17:48:56.655+0000 [clientcursormon]  connections:1
+2016-05-13T17:50:17.829+0000 [initandlisten] connection accepted from 127.0.0.1:38878 #6 (2 connections now open)
+2016-05-13T17:50:17.836+0000 [conn6] end connection 127.0.0.1:38878 (1 connection now open)
+2016-05-13T17:50:17.842+0000 [initandlisten] connection accepted from 127.0.0.1:38880 #7 (2 connections now open)
+2016-05-13T17:50:17.845+0000 [conn7] end connection 127.0.0.1:38880 (1 connection now open)
+2016-05-13T17:53:56.670+0000 [clientcursormon] mem (MB) res:57 virt:323
+2016-05-13T17:53:56.671+0000 [clientcursormon]  mapped:160
+2016-05-13T17:53:56.671+0000 [clientcursormon]  connections:1
+2016-05-13T17:58:49.573+0000 [initandlisten] connection accepted from 127.0.0.1:39584 #8 (2 connections now open)
+2016-05-13T17:58:49.577+0000 [conn8] end connection 127.0.0.1:39584 (1 connection now open)
+2016-05-13T17:58:49.582+0000 [initandlisten] connection accepted from 127.0.0.1:39586 #9 (2 connections now open)
+2016-05-13T17:58:49.587+0000 [conn9] end connection 127.0.0.1:39586 (1 connection now open)
+2016-05-13T17:58:56.686+0000 [clientcursormon] mem (MB) res:57 virt:323
+2016-05-13T17:58:56.686+0000 [clientcursormon]  mapped:160
+2016-05-13T17:58:56.686+0000 [clientcursormon]  connections:1
+2016-05-13T18:03:56.709+0000 [clientcursormon] mem (MB) res:57 virt:323
+2016-05-13T18:03:56.709+0000 [clientcursormon]  mapped:160
+2016-05-13T18:03:56.709+0000 [clientcursormon]  connections:1
+2016-05-13T18:08:57.244+0000 [clientcursormon] mem (MB) res:56 virt:323
+2016-05-13T18:08:57.244+0000 [clientcursormon]  mapped:160
+2016-05-13T18:08:57.244+0000 [clientcursormon]  connections:1
+2016-05-13T18:13:57.256+0000 [clientcursormon] mem (MB) res:55 virt:323
+2016-05-13T18:13:57.256+0000 [clientcursormon]  mapped:160
+2016-05-13T18:13:57.256+0000 [clientcursormon]  connections:1
+2016-05-13T18:18:57.278+0000 [clientcursormon] mem (MB) res:55 virt:323
+2016-05-13T18:18:57.278+0000 [clientcursormon]  mapped:160
+2016-05-13T18:18:57.278+0000 [clientcursormon]  connections:1
